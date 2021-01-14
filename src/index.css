@@ -1,200 +1,120 @@
-body{
-    font-family: "Noto Sans", Arial, sans-serif;
+body {
+  font-family: "Noto Sans", Arial, sans-serif;
 }
-.header-img{
-    background-image: url('../media/couple-index-header.jpg');
-    height:590px;   
-    opacity: 30px;
+.header-img {
+  background-image: url("../media/couple-index-header.jpg");
+  height: 590px;
+  opacity: 30px;
 }
-#logo{
-    height:120px;
+#logo {
+  height: 120px;
 }
 
-.btn-design{
-    background-color:pink;
-    border-radius: 8rem;
-    display: inline-block;
-    font-family: "Noto Sans", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 10px 20px;
-    width: 150px;
-    transition: all .3s;
-    position: relative;
-}   
-.btn-design a{    
-        text-decoration: none;
-        color:white;
-    }
+.btn-design {
+  background-color: pink;
+  border-radius: 8rem;
+  display: inline-block;
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 150px;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-design a {
+  text-decoration: none;
+  color: white;
+}
 
-.btn-design:hover{
-    background-color:   rgb(236, 67, 95);
+.btn-design:hover {
+  background-color: rgb(236, 67, 95);
 }
 /*Plan wedding text starts*/
-.plan-wedding{
-font-size: 39px;
-font-family: "Noto Sans", Arial, sans-serif;
-color:rgb(255, 250, 250);
-mix-blend-mode: screen;
+.plan-wedding {
+  font-size: 39px;
+  font-family: "Noto Sans", Arial, sans-serif;
+  color: rgb(255, 250, 250);
+  mix-blend-mode: screen;
 }
 /*Search Button starts*/
 #search {
-    border: none;
-    display: inline-block;   
-    padding: 9px;  
-    background-color: white;
-    width:90%;
-    font-size: 20px;
+  border: none;
+  display: inline-block;
+  padding: 9px;
+  background-color: white;
+  width: 90%;
+  font-size: 20px;
 }
-#search input[type=text]{
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
+#search input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
 }
-.search-container button {  
-    padding:  10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  .search-container button:hover {
-    background: #ccc;
-  }
-/*Section*/
-section{
-    display: block;
-    border: black;
+.search-container button {
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
-h2{
-    display: inline-block;
-    font-size:3vw;
-}
-p{
-    font-size:1vw;
+.search-container button:hover {
+  background: #ccc;
 }
 /*Section*/
-.bg-color{
-background-color: #333333;
+section {
+  display: block;
+  border: black;
 }
-.text-color{
-    color: #979797;
+h2 {
+  display: inline-block;
+  font-size: 3vw;
 }
-.budget-icons{
-    margin-top:25px;
-    margin-bottom:60px;
+p {
+  font-size: 1vw;
 }
-i{
-    font-size: 2em;
-    margin-bottom:5px;
+/*Section*/
+.bg-color {
+  background-color: #333333;
 }
-.emoji{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    font-size: 2em;  
-    margin-bottom:5px;
+.text-color {
+  color: #979797;
+}
+.budget-icons {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+i {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+.emoji {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  font-size: 2em;
+  margin-bottom: 5px;
 }
 /*Our Partners*/
-h2{
-    text-align:center;
-    padding: 20px;
-  }
-  /*Budgeting Tools*/
-    .bugeting{
-        height: 310px;
-        width: 33.3%;       
-        float: left; 
-        margin-top: 70px;
-        margin-left: 70px;
-           }
-    #budget-img{
-        height: 25%;
-        width: 20%;         
-        margin-left:70px;
-        margin-right: 20px;
-    }
-    #budget-description{
-        height: 140px;
-        width: 96%;        
-        float: left; 
-        margin: 10px 0px 0px 0px ;
-        text-align:inherit;
-        padding: 10px 5px ;
-        margin: 10px 40px 0px 60px ;  
-    }
-    .budget-descriptionbtn{
-        height: 40px;
-        width: 80%;             
-        display: block;
-        margin: 10px 40px 0px 60px ;        
-        float: left;         
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        font-size: 25px;
-        border: none;
-        background-color: white;
-    }
-    .budget-descriptionbtn:hover{
-        cursor: pointer;
-        border: none;        
-    }
-    #Event-Plannerbtn{
-        height: 140px;
-        width: 96%;        
-        float: left; 
-        margin: 10px 0px 0px 0px ;
-        text-align:inherit;
-        padding: 10px 5px ;
-        margin: 10px 40px 0px 60px ; 
-    }
-    #guest-img{
-        height: 40%;
-        width: 34%;   
-        color:solid black;     
-        margin-left:70px;
-        margin-right: 20px;
-    }
-    #invitationbtn{
-        height: 140px;
-        width: 96%;        
-        float: left; 
-        margin: 10px 0px 0px 0px ;
-        text-align:inherit;
-        padding: 10px 5px ;
-        margin: 10px 40px 0px 60px ; 
-    }
-   
-    #bookbtn{
-        height: 140px;
-        width: 96%;        
-        float: left; 
-        margin: 10px 0px 0px 0px ;
-        text-align:inherit;
-        padding: 10px 5px ;
-        margin: 10px 40px 0px 60px ; 
-    }
-    #installment-img{      
-        width: 20%;              
-        margin-left:70px;
-        margin-right: 20px;
-    }
-    #installmentbtn{
-        height: 140px;
-        width: 96%;        
-        float: left; 
-        margin: 10px 0px 0px 0px ;
-        text-align:inherit;
-        padding: 10px 5px ;
-        margin: 10px 40px 0px 60px ; 
-    }
-    /*Footer*/
-  .footer__social{
-    margin-top:10%;
-  }
-    .footer__social a {
-        padding: 0 0 0 10px;
-    }
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+/*Budgeting Tools*/
+.bugeting {
+  height: 310px;
+  width: 33.3%;
+  float: left;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+/*Footer*/
+.footer__social {
+  margin-top: 10%;
+}
+.footer__social a {
+  padding: 0 0 0 10px;
+}
