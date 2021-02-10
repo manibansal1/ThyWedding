@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/indes.js"></script>
+   <style>
+      body{
+      background-image:url("media/ros.jpg") ;
+      margin:0;
+      padding:0;
+      background-attachment: fixed;
+      background-size: cover;
+       }
+      .footer-text-link{
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 14px;
+        margin: 0px 0 0 10px;    
+        transition: 0.5s ease;
+        color: Blue;
+       }
+   </style> 
+    </head>
+
+<body>  
+    <div class="header">
+         <div id="logo">
+            <a href="index.html">
+                <img src="media/logo-dark.png" class="logo-img"/>
+            </a>
+         </div>
+         <div id="header-centre"></div>
+         <div class="header-login">
+            <a href="#" class="login" style="color:pink;">
+                Login
+            </a>
+         </div>
+         <div class="header-right-btn">
+           <div class="btn-block">
+            <button class="signup-btn" onclick="window.location.href='signup.html';">
+                Get Started                
+            </button>
+           </div>
+         </div>  
+    </div>
+    <!--Container (Sign Up)-->
+    <div class="row">
+       <div class="col-12">
+        <form class="signup-form" method="#" id="login-form-prevent" action="post">
+            <div class="signup">
+             <h2>Welcome Back👋</h2>       
+                <input type="text" name="email" id="email" class="form-style" autofocus placeholder="Email" required>
+                <input type="text" name="password" id="password" placeholder="Password" class="form-style"  required>
+                <button id="signup-style" class="login" onclick="">
+                    Login
+                </button>
+                <input type="checkbox" checked="checked" name="remember" class="checkbox-style">
+                Remember me<br/> 
+                <a href="signup.html" style="color: rgb(54, 52, 52); display:inline-block;
+                margin-top: 6px;">Don't have an account? Sign up!</a>      
+
+        </form>
+    </div> 
+    </div>
+    <!--footer-->
+<!--<footer> 
+    <section class="footer" style="background: inherit; margin-top:20%;">
+    <div class="container">
+     <div class="row align-items-end"> 
+       <div class="col">
+      <a target="_blank" href="https://www.facebook.com"><img class="social-link" alt="IDD Facebook" src="media/facebook-logo.png" style="height:50px; width:80px;"/></a>
+      <a target="_blank" href="https://www.instagram.com"><img class="social-link" alt="idd insta" src="media/instagram-icon.png" style="height:50px; width:80px;"/></a>            
+    </div></div>
+      <div class="row justify-content-end" >        
+        <div class="col" style="margin-left: 30%; margin-bottom:5%;">
+          <p class="small">© 2020 IDD, is a registered trademark of I Do Destination, Inc.</p>
+        </div>
+        <div class="col" style="margin-left:70%; margin-bottom:5%;">
+          <a class="footer-text-link" href="/privacy">Privacy Policy</a>
+          <a class="footer-text-link" href="/terms">Terms of Service</a>        
+        </div> 
+    </div>
+  </section>
+  </footer> -->
+  <script>
+    function prevent(event){
+      event.preventDefault();
+      alert("Welcome to I Do Destination.😊")
+    }
+    let u=document.querySelector("#login-form-prevent");
+    u.addEventListener("submit", prevent);
+</script>
+</body>
+</html>

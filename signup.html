@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/indes.js"></script> 
+    <style>
+        body{
+        background-image:url("media/ros.jpg") ;
+        margin:0;
+        padding:0;
+        background-attachment: fixed;
+        background-size: cover;
+         }
+     </style>  
+</head>
+
+<body>
+    <div class="header">
+         <div id="logo">
+            <a href="index.html">
+                <img src="media/logo-dark.png" class="logo-img"/>
+            </a>
+         </div>
+         <div id="header-centre"></div>
+         <div class="header-login">
+            <a href="login.html" class="login" style="color:pink;">
+                Login
+            </a>
+         </div>
+         <div class="header-right-btn">
+           <div class="btn-block">
+            <button class="signup-btn">
+                Get Started                
+            </button>
+           </div>
+         </div>  
+    </div>
+    <!--Container (Sign Up)-->
+    <div class="row">
+        <div class="col-12">
+    <form class="signup-form" method="#" id="signup-form-prevent" action="post">
+      <div class="signup">
+       <h1>Sign Up 💕</h1>       
+            <input type="text" name="email" id="email" class="form-style" autofocus placeholder="Email" required>
+            <input type="text" name="password" id="password" placeholder="Password" class="form-style"  required>
+            <input type="text" name="confirm-password" id="confirm-password" placeholder="Confirm Password" class="form-style" required>
+            <button id="signup-style">
+                Sign Up
+            </button>
+            <input type="checkbox" checked="checked" name="remember" class="checkbox-style">
+            Remember me<br/>            
+        </form>
+            <span id="terms-policy">By signing up you agree to our <br/>
+               <a href="#" style="color:rgb(12, 67, 122)">Terms and Privacy Policy</a>.</span>
+            <p>Already have an account? <a href="login.html">Login Now!</a></p>
+        </div>
+  
+    </div>
+    <script>
+        function prevent(event){
+          event.preventDefault();
+          alert("Thank you for Signing Up. We'll be in touch soon!😊")
+        }
+        let u=document.querySelector("#signup-form-prevent");
+        u.addEventListener("submit", prevent);
+    </script>
+</body>
+</html>
